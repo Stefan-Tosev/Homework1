@@ -18,7 +18,7 @@ public class Example4 {
          Scanner scan = new Scanner(System.in); //creating scanner int
          System.out.print("How much money do I have  ");
 
-         int money = scan.nextInt(); // reading the number
+         double money = scan.nextDouble(); // reading the number
          System.out.println("I have " + money + " leva");
         if (money>20) // block of code to be executed if it is weekend
             {System.out.println("I have money and will go to cinema");}
