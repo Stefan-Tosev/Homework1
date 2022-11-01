@@ -20,8 +20,10 @@ public class Example4 {
 
          int money = scan.nextInt(); // reading the number
          System.out.println("I have " + money + " leva");
-        if (money>10) // block of code to be executed if it is weekend
+        if (money>20) // block of code to be executed if it is weekend
             {System.out.println("I have money and will go to cinema");}
+            if (money>10 && money< 20) // block of code to be executed if it is weekend
+                {System.out.println("I don't have enough money for cinema but I can buy an ice cream ");}
              if (money == 10) // block of code to be executed if it is weekend
                 {System.out.print("I have 10 Leva and will go for an ice cream");}
                  if (money<10) // block of code to be executed if it is weekend
