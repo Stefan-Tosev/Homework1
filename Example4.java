@@ -25,10 +25,10 @@ public class Example4 {
             if (money>10 && money< 20) // block of code to be executed if it is weekend
                 {System.out.println("I don't have enough money for cinema but I can buy an ice cream ");}
              if (money == 10) // block of code to be executed if it is weekend
-                {System.out.print("I have 10 Leva and will go for an ice cream");}
+                {System.out.println("I have 10 Leva and will go for an ice cream");}
                  if (money<10) // block of code to be executed if it is weekend
-                    {System.out.print("I have no money and will stay home");}
-     } else System.out.print("It is weekday and I have to work");}
+                    {System.out.println("I have no money and will stay home");}
+     } else System.out.println("It is weekday and I have to work");}
 
         }
 
