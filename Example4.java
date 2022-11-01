@@ -15,7 +15,7 @@ public class Example4 {
 
      if (day.equals("Saturday") || day.equals("Sunday") || day.equals("saturday") || day.equals("sunday")) {// I always received mistakes trying to do it with || and found equals
         System.out.println("It is weekend");
-         Scanner scan = new Scanner(System.in); //creating scanner int
+         Scanner scan = new Scanner(System.in); //creating scanner double
          System.out.print("How much money do I have  ");
 
          double money = scan.nextDouble(); // reading the number
