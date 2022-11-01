@@ -35,7 +35,7 @@ public class Example1 {
         else { System.out.println("the number isnt between the two numbers");  }
 
 
-        //I played today with the code and made it better
+
         //System.out.println("the number is double " + myDouble);
 
 
