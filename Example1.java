@@ -13,7 +13,7 @@ public class Example1 {
 
         if ((num<myInt)||(num>myDouble)) {
             System.out.println("the number isnt between the two numbers"); // block of code to be executed if the condition is true
-        } else { System.out.println("the number is between the two numbers"); 
+        } else { System.out.println("the number is between the two numbers"); // else
         
         
     }
